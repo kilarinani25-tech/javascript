@@ -1,0 +1,74 @@
+body {
+  background-color: #0b0b0b;
+  color: #fff;
+}
+
+/* NAVBAR*/
+.navbar {
+  background-color: rgb(226, 75, 75);
+  padding: 20px 0;
+}
+
+.navbar-brand {
+  color: #f9b233 !important;
+}
+
+.nav-link {
+  color: #ddd !important;
+}
+
+.nav-link:hover {
+  color: #f9b233 !important;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* contact */
+.container1{
+  max-width: 600px;
+  width: 80%;
+  
+}
+.btn{
+  color: #fff;
+}
+
+
+
+
+.footer {
+  background-color: rgb(226, 75, 75);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+  padding: 20px;
+}
+.fit-club {
+  width: 350px;
+}
+.fit-club h2 {
+  color: rgb(87, 63, 63);
+}
+.quick-links {
+  min-width: 150px;
+}
+.quick-links li:hover {
+  color: blue;
+}
+.quick-links a {
+  text-decoration: none;
+  color: white;
+}
+.quick-links h2 {
+  color: rgb(87, 63, 63);
+}
+.quick-links li {
+  list-style: none;
+}
+.contact-us h2 {
+  color: rgb(87, 63, 63);
+}
+.copyright {
+  text-align: center;
+}

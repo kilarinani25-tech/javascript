@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitClub Gym |Home</title>
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="contact.css" />
+  <script deffer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">🏋️ FITCLUB</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="program.html">Program</a></li>
+        <li class="nav-item"><a class="nav-link" href="Prices.html">Prices</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+      <a href="#" class="btn btn-warning fw-semibold px-4">Join Now</a>
+    </div>
+  </div>
+</nav>
+<!-- contact form -->
+ <div class="container d-flex justify-content-center align-items-center vh-100">
+    
+    <div class="card shadow-lg p-4" style="width: 400px;">
+      
+      <h3 class="text-center mb-4">Gym Membership Form</h3>
+
+      <form id="membershipForm">
+
+        <div class="mb-3">
+          <label class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          <div class="text-danger small" id="nameError"></div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email">
+          <div class="text-danger small" id="emailError"></div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Phone Number</label>
+          <input type="tel" class="form-control" id="phone" placeholder="Enter phone number">
+          <div class="text-danger small" id="phoneError"></div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Select Plan</label>
+          <select class="form-select" id="plan">
+            <option value="">Choose Plan</option>
+            <option value="Monthly">Monthly</option>
+            <option value="Quarterly">Quarterly</option>
+            <option value="Yearly">Yearly</option>
+          </select>
+          <div class="text-danger small" id="planError"></div>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+<!-- FOOTER (UNCHANGED) -->
+<footer class="footer">
+  <div class="fit-club">
+    <h2>Fit Club</h2>
+   <p>Fit Club is a modern fitness center dedicated to helping individuals unlock their full potential. We offer a wide range of training programs including strength training, cardio workouts, fat loss programs, yoga, and high-intensity sessions designed for all fitness levels.</p>
+  </div>
+
+  <div class="quick-links">
+    <h2>Quick Links</h2>
+    <ul>
+      <a href="index.html"><li>Home</li></a>
+      <a href="program.html"><li>Program</li></a>
+      <a href="Prices.html"><li>Prices</li></a>
+      <a href="about.html"><li>About</li></a>
+    </ul>
+  </div>
+
+  <div class="contact-us">
+    <h2>Contact Us</h2>
+    <i class="fa-solid fa-phone"></i> +91 999999999 <br />
+    <i class="fa-solid fa-envelope"></i> admin@gmail.com
+  </div>
+</footer>
+
+<p class="copyright">
+  &copy; 2026 Fit Club. All Rights Reserved.
+</p>
+<script src="./form.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
